@@ -135,7 +135,7 @@ class BigBoss extends Enemy {
   void act() {
     super.act(); 
 
-    if ( myHero.enemyK>=1 ) {
+    if ( myHero.enemyK>=55 ) {
       Boss = false;
       protection = false;
     }
